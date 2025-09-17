@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (web) - MCPServer (port 3001)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/bin/Debug/net8.0/MCPServer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src",
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "http://localhost:3001"
+            },
+            "stopAtEntry": false,
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "inputs": [],
+    "servers": {
+        // "stdiomcp": {
+        //     "type": "stdio",
+        //     "command": "dotnet",
+        //     "args": [
+        //         "run",
+        //         "--project",
+        //         "~/source/mcp-test/src/MCPServer.csproj"
+        //     ]
+        // },
+        "httpmcp": {
+            "type": "http",
+            "url": "http://localhost:3001/mcp"
+        }
+    }
+}
